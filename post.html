@@ -1,0 +1,33 @@
+<html lang="fr">
+
+<head>
+    <title>Post Launcher</title>
+    <meta data-n-head="ssr" charset="utf-8">
+    <meta data-n-head="ssr" name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+</head>
+
+<body>
+    <div class="posted">
+        <div id="messages">
+        </div>
+        <form id="send-message">
+            <textarea id="chat-txt" placeholder="Messages" required></textarea>
+            <button id="chat-btn" type="submit"><i class="fa-solid fa-paper-plane"></i> Envoyer</button>
+        </form>    
+    </div>
+
+    <!--
+    <div class="posted">
+        <form id="send-message">
+            <textarea id="chat-txt" placeholder="Messages" required></textarea>
+            <button id="chat-btn" type="submit"><i class="fa-solid fa-paper-plane"></i> Envoyer</button>
+        </form>    
+        <div id="messages"></div>
+    </div>-->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="./postAPI.js"></script>
+</body>
+</html>

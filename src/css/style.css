@@ -1,0 +1,144 @@
+/*-----[ALLPAGE]-----*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+body {
+    display: flex;
+    width: 100%;
+    background: #080808;
+}
+/*-----[ALLPAGE]-----*/
+
+/*-----[POSTED]-----*/
+#messages {
+    height: 80vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: auto;
+}
+
+#send-message {
+    position: fixed;
+    top: 80vh;
+    left: 0;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#send-message textarea {
+    width: 60%;
+    height: 10vh;
+    resize: none;
+    border: none;
+    margin: auto;
+
+    background: #161b22;
+}
+#send-message button {
+    background: #30363d;
+    border: none;
+    width: 60%;
+    height: 5vh;
+    margin: auto;
+}
+
+
+
+.boxnew {
+    background: #080808;
+    width: 100vh;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid #30363d;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.boxnew-header {
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: -1px -1px 0;
+    background: #161b22;
+    border: #30363d;
+    border-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    border-bottom: 1px solid #30363d;
+}
+
+.text-mono {
+    color: #dbdbdb;
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+}
+
+.markdown-ebody {
+    color: #dbdbdb;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.markdown-ebody pre {
+    padding: 8px 16px;
+    overflow: auto;
+    align-items: center;
+    background-color: #161b22;
+    border-radius: 6px;
+    margin: 15px;
+}
+
+.markdown-ebody h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.markdown-ebody li {
+    margin-left: 50px;
+}
+
+.markdown-ebody p {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.markSepar {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 1px;
+    background: #30363d;
+}
+
+.notranslate::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.notranslate::-webkit-scrollbar {
+    width: 12px;
+    height: 5px;
+    background-color: transparent;
+}
+
+.notranslate::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #555;
+}
+/*-----[POSTED]-----*/
